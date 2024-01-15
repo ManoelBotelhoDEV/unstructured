@@ -2,7 +2,7 @@ from unstructured_client import UnstructuredClient
 from unstructured_client.models import shared
 from unstructured_client.models.errors import SDKError
 
-s = UnstructuredClient(api_key_auth="jP7OGSZ5Gy8bEZzQYlUpMvNi1BkM50")
+s = UnstructuredClient(api_key_auth="YOUR_API_KEY")
 
 filename = "contrato.pdf"
 
